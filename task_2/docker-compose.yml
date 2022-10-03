@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  trained_model:
+    build: ./web_app
+    container_name: trained-model
+    restart: always
+    volumes:
+      - ./:/web_app
+    ports:
+      - "5050:5050"
+    expose:
+      - "5050"
+
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    restart: always
+    ports:
+      - "5000:80"
+
+
+
+  
