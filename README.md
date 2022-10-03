@@ -46,3 +46,10 @@ Solution:
 - Create a pull request and you can approve it yourself and merge the branch into trunk
 - Document the process for using your updated repo in README.md so that we can try out your demo ourselves
 - Share the repo with the github users dcshapiro and elmathioso
+
+-Solution:
+
+-I wanted to learn the text data analysis and through this task I got opportunity to do a EDA on text data.
+-I have selected the rotten_tomotoes dataset from the hugging face https://huggingface.co/datasets/rotten_tomatoes
+-This is a dataset of containing 5,331 positive and 5,331 negative processed sentences from Rotten Tomatoes movie reviews.
+-For exectuting the eda , please Navigate to /fizzbuzz/task_3 and run 'task_3_eda.ipynb
