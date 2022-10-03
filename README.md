@@ -19,7 +19,7 @@ Please fork this repo (you may opt to share a private repo with us to preserve y
 
 Solution:
 1. Model / container / web server /web server application selection:
-    - As the purpose of this task was to demonstrate model deployment so to focus more in it ,I have selected a model that I have worked in my previous projects. Image classsification model from microsoft i.e (ResNet-50 v1.5 https://huggingface.co/microsoft/resnet-50) which is pretrained on ImageNEt-1k dataset and can classify 1000 classes. 
+    - As the purpose of this task was to demonstrate model deployment so to focus more on that ,I have selected a Image classsification model from microsoft i.e (ResNet-50 v1.5 https://huggingface.co/microsoft/resnet-50) that I have worked in my previous projects. The model is pretrained on ImageNEt-1k dataset and can classify 1000 classes. 
     - Used Starlette and unicorn for developing the ASGI based web application.
     - Used Nginx as the web server that can recieve the request form the internet and forward it to the unicorn acting as a reverse proxy.
     - The application was containerised using docker container.
@@ -46,3 +46,10 @@ Solution:
 - Create a pull request and you can approve it yourself and merge the branch into trunk
 - Document the process for using your updated repo in README.md so that we can try out your demo ourselves
 - Share the repo with the github users dcshapiro and elmathioso
+
+Solution:
+
+- I wanted to learn the text data analysis and through this task I got opportunity to do a EDA on text data.
+- I have selected the rotten_tomotoes dataset from the hugging face https://huggingface.co/datasets/rotten_tomatoes
+- This is a dataset of containing 5,331 positive and 5,331 negative processed sentences from Rotten Tomatoes movie reviews. 
+- For exectuting the eda , please Navigate to /fizzbuzz/task_3 and run 'task_3_eda.ipynb
